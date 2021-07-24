@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather search</title>
+    <script src="https://kit.fontawesome.com/687bb7e4c6.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="src/styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  </head>
+<body>
+<div class="container">
+        
+      <header>
+            <form>
+                <input type="text" id="search-city" placeholder="What's the weather in..." autocomplete="off" autofocus="on"/>
+                <input type="submit" value="Search" class="btn btn-primary btn-sm"/>
+                <button class="btn btn-primary btn-sm" id="current-city-search">Current</button>
+              </form>
+        </header>
+        
+        <div class="current-weather">
+          <h2>
+            Current City - 
+                <span class="city" id="city">
+                  #
+                </span>
+            </h2>
+            <div>
+                <div class="day-time" id="day-time">
+                  #
+                </div>
+                <br />
+                <i class="fas fa-cloud-sun weather-icons"></i>
+                <br />
+                Partly Cloudy
+                <br />
+                <span class="temp" id="temp">
+                  #°F
+                </span>
+                </div>
+          </div>
+        
+          <br />
+        
+<div class="row">
+    
+  <div class="col-2 weather-cards">
+    <div class="card">
+      <div class="card-body">
+        Monday
+        <i class="fas fa-cloud-sun weather-icons"></i>
+        Partly Cloudy
+        <br/>
+       <small>
+        H:88°F
+        <br/>
+        L:68°F
+        </small>
+      </div>
+    </div>
+  </div>
+    
+  <div class="col-2 weather-cards">
+    <div class="card">
+      <div class="card-body">
+        Tuesday
+        <i class="fas fa-cloud-sun weather-icons"></i>
+        Partly Cloudy
+        <br/>
+       <small>
+        H:88°F
+        <br/>
+        L:68°F
+        </small>
+      </div>
+    </div>
+  </div>
+    
+  <div class="col-2 weather-cards">
+    <div class="card">
+      <div class="card-body">
+        Wednesday
+        <i class="fas fa-cloud-sun weather-icons"></i>
+        Partly Cloudy
+        <br/>
+       <small>
+        H:88°F
+        <br/>
+        L:68°F
+        </small>
+      </div>
+    </div>
+  </div>
+    
+  <div class="col-2 weather-cards">
+    <div class="card">
+      <div class="card-body">
+        Thursday
+        <i class="fas fa-cloud-sun weather-icons"></i>
+        Partly Cloudy
+        <br/>
+       <small>
+        H:88°F
+        <br/>
+        L:68°F
+        </small>
+      </div>
+    </div>
+  </div>
+    
+  <div class="col-2 weather-cards">
+    <div class="card">
+      <div class="card-body">
+        Friday
+        <i class="fas fa-cloud-sun weather-icons"></i>
+        Partly Cloudy
+        <br/>
+       <small>
+        H:88°F
+        <br/>
+        L:68°F
+        </small>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<script src="src/script.js"></script>
+
+</body>
+</html>
